@@ -17,7 +17,7 @@ while (rerun)
 {
     Console.WriteLine("Please enter an integer.");
     userInput = int.Parse(Console.ReadLine());
-    Console.WriteLine("Number  Squared  Cubed");
+    Console.WriteLine("Number" + "\t" + "Squared" + "\t" + "Cubed");
 
     //this for loop checks to see if i is less than userInput.
     //For each time i is less than userInput, the for loop loops, and another console writeline is displayed
